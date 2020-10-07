@@ -21,4 +21,8 @@ class Buttons extends Component {
     }
 };
 
+Buttons.propTypes = {
+  changeStatistic: propTypes.func
+};
+
 export default Buttons;

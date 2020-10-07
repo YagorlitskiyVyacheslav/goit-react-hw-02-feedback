@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import List from './statistic.component';
+import PropTypes from 'prop-types';
 
 class StatisticList extends Component {
 
@@ -21,6 +22,10 @@ class StatisticList extends Component {
           </List.Container>
         );
     }
+}
+
+StatisticList.propTypes = {
+  statistics: PropTypes.object
 }
 
 export default StatisticList;
